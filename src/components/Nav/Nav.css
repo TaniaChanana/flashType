@@ -1,0 +1,37 @@
+.nav-container{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    background-color: #1d2020;
+    margin: 0;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.flash-logo {
+    margin-left: 20px;
+    height: 40px;
+}
+
+.flash-logo-text {
+    font-family: "Bangers", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+     margin: 0 10px;
+     color: #e6e7e6;
+}
+
+.nav-right{
+    margin-right: 40px;
+}
+
+.nav-link{
+    font-size: 32px;
+    font-weight: 500;
+    color: #e6e7e6;
+}
